@@ -1,5 +1,4 @@
-import generador
+from generador import leer_numero, generador
 
-generador.leer_numero()
-print(generador.generador())
+print(f"La lista con los numero cuadrados es: {generador()}")
 

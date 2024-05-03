@@ -5,6 +5,7 @@ def leer_numero():
     fin = int(input("Ingrese el mayor numero: "))
     return {"var_1": ini, "var_2": fin}
 
+
 def generador():
     variables = leer_numero()
     lista = []
