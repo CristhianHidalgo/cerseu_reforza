@@ -7,13 +7,9 @@ def ingresar_int():
             return num
         except ValueError:
             print("Error: El Número debe ser entero")
-        except:
-            print("Error: Ingrese un valor válido")
 
 
 def sumar_valores():
     num1 = ingresar_int()
     num2 = ingresar_int()
     return num1 + num2
-
-

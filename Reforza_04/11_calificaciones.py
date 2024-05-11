@@ -20,4 +20,5 @@ def leer_fichero():
     print(file.read())
     file.close()
 
+
 leer_fichero()

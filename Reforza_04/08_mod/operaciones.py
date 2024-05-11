@@ -29,4 +29,3 @@ def main():
     num = ingresar_num()
     raiz_num(num)
     potencia_num(num)
-

@@ -6,9 +6,11 @@ def funcion_decoradora(funcion_parametro):
         print("Hasta luego")
     return funcion_interna
 
+
 @funcion_decoradora
 def presentacion(nombre):
     print(f"Soy {nombre}")
+
 
 nombre = input("Ingrese el nombre de la persona que desea presentar: ")
 presentacion(nombre)

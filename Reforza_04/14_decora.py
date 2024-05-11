@@ -6,11 +6,12 @@ def funcionD(funcionP):
         print("La función decoradora termin+o de ejecutarse correctamente")
     return funcionI
 
+
 @funcionD
 def suma(a, b, c, d):
     parametros = locals()
     cantidad = len(parametros)
     print(cantidad)
 
-suma(2,3,5,4)
 
+suma(2, 3, 5, 4)
